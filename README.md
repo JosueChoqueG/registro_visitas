@@ -13,18 +13,6 @@
 	<li><b>ADMIN-LTE</b></li>
 </ul>
 
-## COMENZANDO <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji>
-
-<p><em>Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local, para propósitos de desarrollo y pruebas.</em></p>
-
-## PRE-REQUISITOS <g-emoji class="g-emoji" alias="clipboard" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4cb.png">📋</g-emoji>
-
-<ul>
-	<li><b>PHP >= 7.3</b></li>
-	<li><b>NODEJS >= 7:</b> LINK DESCARGA https://nodejs.org/es/</li>
-	<li><b>COMPOSER >= 2.0.14</b> LINK DESCARGA https://getcomposer.org/download/ </li>
-</ul>
-
 ## INSTALACIÓN <g-emoji class="g-emoji" alias="wrench" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png">🔧</g-emoji>
 
 <h3>Sigue paso a paso nuestras intrucciones para ejecutar correctamente el sistema</h3>
@@ -53,17 +41,3 @@ SANCTUM_STATEFUL_DOMAINS=localhost   ###  nombre del dominio</pre></code>
 <pre><code>USUARIO=admin@incared.net</br>
 CLAVE: 12345678 </pre></code>
 
-<h2 style="color:red; text-align: center;"><b>IMPORTANTE:</b></h2>
-
-<p>En el archivo .env creamos 2 variables nuevas llamadas: <b>APP_PATH_LOCAL_VUE && SANCTUM_STATEFUL_DOMAINS</b> </p>	
-<ul>
-	<li><b>APP_PATH_LOCAL_VUE || VALOR PREDETERMINADO "VACIO" :</b> Esta variable fue creada para entornos donde no contemos con un servidor o donde no podamos ejecutar el comando "<b>php artisan serve</b>" para que levante nuestro servidor, en esta variable podemos colocar la ruta absoluta en donde se encuentro nuestro public, ejemplo: localhost/registro-de-visitas/public/, de este modo vuejs apuntara hacia esta ruta. Es opcional</li>
-	<li><b>SANCTUM_STATEFUL_DOMAINS || VALOR PREDETERMINADO "localhost" :</b> Variable importante para sanctum, paquete que usamos para autenticación, debemos colocar nuestra url sin su protocolo ejemplo: example.com </li>
-</ul>
-
-<h2 style="color:red; text-align: center;"><b>CONTÁCTENOS:</b></h2>
-
-<ul>
-	<li><b>Enlace del sistema</b> LINK  https://incared.net/producto/sistema-de-registro-visitas-proveedores-contratistas-invitados/</li>
-	<li><b>Datos de contacto y consultas:</b> LINK DESCARGA https://incared.net/contactenos/</li>
-</ul>
